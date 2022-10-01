@@ -22,14 +22,28 @@
                 "HOWINEEDADRINKALCOHOLICINNATUREAFTERTHEHEAVYLECTURESINVOLVINGQUANTUMMECHANICSANDALLTHESECRETSOFTHEUNIVERSE",
                 "CANIMAKEAGUESSNOW", "FORALOOP"
             };
+
             foreach(string input in inputs) {
                 Console.WriteLine(PilishStrings.PilishString(input));
             }
         }
 
+        static void FareySequenceTest() {
+            int[] inputs = { 1, 4, 5 };
+
+            foreach(int input in inputs) {
+                List<string> output = FareySequence.Farey(input);
+                foreach(string item in output) {
+                    Console.Write(item + ' ');
+                }
+                Console.WriteLine();
+            }
+        }
+
         static void Main(string[] args) {
             // LookAndSaySequenceTest();
-            PilishStringsTest();
+            // PilishStringsTest();
+            FareySequenceTest();
         }
     }
 }
