@@ -15,8 +15,21 @@
                 Console.WriteLine();
             }
         }
+
+        static void PilishStringsTest() {
+            string[] inputs = {
+                "", "33314444", "TOP", "X",
+                "HOWINEEDADRINKALCOHOLICINNATUREAFTERTHEHEAVYLECTURESINVOLVINGQUANTUMMECHANICSANDALLTHESECRETSOFTHEUNIVERSE",
+                "CANIMAKEAGUESSNOW", "FORALOOP"
+            };
+            foreach(string input in inputs) {
+                Console.WriteLine(PilishStrings.PilishString(input));
+            }
+        }
+
         static void Main(string[] args) {
-            LookAndSaySequenceTest();
+            // LookAndSaySequenceTest();
+            PilishStringsTest();
         }
     }
 }
