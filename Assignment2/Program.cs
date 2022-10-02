@@ -54,11 +54,24 @@
             }
         }
 
+        static void NicoCipherTest() {
+            string[][] inputs = {
+                new string[] { "mubashirhassan", "crazy" },
+                new string[] { "edabitisamazing", "matt" },
+                new string[] { "iloveher", "612345" },
+            };
+
+            foreach(var input in inputs) {
+                Console.WriteLine(NicoCipher.EncryptNico(input[0], input[1]));
+            }
+        }
+
         static void Main(string[] args) {
             // LookAndSaySequenceTest();
             // PilishStringsTest();
             // FareySequenceTest();
-            LinearEquationTest();
+            // LinearEquationTest();
+            NicoCipherTest();
         }
     }
 }
