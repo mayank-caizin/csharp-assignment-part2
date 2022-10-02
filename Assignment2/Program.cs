@@ -40,10 +40,25 @@
             }
         }
 
+        static void LinearEquationTest() {
+            string[] inputs = {
+                "99x=99",
+                "4x-7=x+11",
+                "3x=2x+x",
+                "3x=3x+2",
+                "-1-2x=15+x"
+            };
+
+            foreach(string input in inputs) {
+                Console.WriteLine(LinearEquation.FindX(input));
+            }
+        }
+
         static void Main(string[] args) {
             // LookAndSaySequenceTest();
             // PilishStringsTest();
-            FareySequenceTest();
+            // FareySequenceTest();
+            LinearEquationTest();
         }
     }
 }
