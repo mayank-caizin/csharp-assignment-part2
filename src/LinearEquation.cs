@@ -1,6 +1,6 @@
 ﻿using System.Text.RegularExpressions;
 
-namespace Assignment2 {
+namespace CSharp.Assignment.Part2 {
     public class LinearEquation {
         private static int GetCoeffSum(string exp) {
             Regex coeffRegex = new Regex(@"(-)?(\d+)?x");

@@ -1,4 +1,4 @@
-﻿namespace Assignment2 {
+﻿namespace CSharp.Assignment.Part2 {
     public class FareySequence {
         public static List<string> Farey(int n) {
             List<string> list = new List<string>();

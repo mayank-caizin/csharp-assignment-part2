@@ -1,4 +1,4 @@
-﻿namespace Assignment2 {
+﻿namespace CSharp.Assignment.Part2 {
     internal class Program {
         static void LookAndSaySequenceTest() {
             int[][] inputs = {

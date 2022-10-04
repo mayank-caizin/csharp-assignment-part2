@@ -1,6 +1,6 @@
 ﻿using System.Text;
 
-namespace Assignment2 {
+namespace CSharp.Assignment.Part2 {
     public class LookAndSaySequence {
         // Not working
         //private static long NextTerm(long currTerm) {

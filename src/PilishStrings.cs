@@ -1,6 +1,6 @@
 ﻿using System.Text;
 
-namespace Assignment2 {
+namespace CSharp.Assignment.Part2 {
     public class PilishStrings {
         public static string PilishString(string str) {
             if (str.Length == 0) return "";

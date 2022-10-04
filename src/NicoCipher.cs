@@ -1,6 +1,6 @@
 ﻿using System.Text;
 
-namespace Assignment2 {
+namespace CSharp.Assignment.Part2 {
     public class NicoCipher {
         public static string EncryptNico(string message, string key) {
             int l = key.Length;
